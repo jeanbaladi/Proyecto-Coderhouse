@@ -1,0 +1,20 @@
+@import "../global/variables";
+@import "../global/mixin";
+.grid {
+	border: solid transparent;
+	transition: transform 0.3s ease-in-out;
+}
+.grid:hover{ 
+	border: solid $grid-color;
+	transform: scale(1.04);
+}
+/*comedor*/
+.gridcomedor {
+	border: solid transparent;
+	transition: transform 0.3s ease-in-out;
+}
+.gridcomedor:hover{ 
+	border: solid $grid-color;
+	transform: scale(1.04);
+}
+

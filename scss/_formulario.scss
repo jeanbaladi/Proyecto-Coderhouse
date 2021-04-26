@@ -1,0 +1,42 @@
+.formulario{
+	margin-left: 40%;
+	align-items: center;
+	white-space:pre;
+	border: solid 10px $form-color;
+	width:250px;
+	display: flex; 
+	flex-direction: column; 
+	transition-duration: 500ms;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.nombre:hover {
+	 border:3px solid $text-form-color;
+}
+.Apellido:hover {
+	border:3px solid $text-form-color;
+}
+.correo:hover{
+	border:3px solid $text-form-color;
+}
+.whatsaap:hover {
+	border:3px solid $text-form-color;
+}
+.cuentanos:hover{
+	border:3px solid $text-form-color;
+}
+.cuentanos {
+	border:3px solid gray;
+}
+.enviar {
+	border-radius: 8px;
+	color:white;
+	background-color: $send-color;
+}	
+.enviar:hover {
+	background-color: $send-hover-color;
+}
+input {
+	width:50%;
+	border:3px solid gray;
+}

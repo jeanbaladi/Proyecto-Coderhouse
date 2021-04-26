@@ -1,0 +1,22 @@
+.main-nav nav {
+	background-color: black;
+	font-family: Impact, sans-serif;
+	flex-direction: column;
+	font-size: 21px;
+	padding: 5px 0;
+
+}
+.mobile-nav nav {
+	background-color: black;
+	font-family: Impact, sans-serif;
+	flex-direction: column;
+}
+.item-menu {
+	margin-left: 5%;
+	color: white;
+}
+
+.item-menu:hover {
+	text-decoration: none;
+	color: yellow;
+}

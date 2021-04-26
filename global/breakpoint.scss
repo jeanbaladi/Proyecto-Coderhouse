@@ -1,0 +1,91 @@
+@import "../global/variables";
+.burguer {
+	display:none;
+}
+@media only screen and (max-width: 768px) {
+	.main-nav {
+		display:none;
+	}
+	.siguenos {
+		font-size: 14px;
+		text-align:center; 
+	}
+	.carousel-caption {  
+	    font-size:20px;
+	    	.h5, h5 {
+	    		font-size: 2.25rem;
+					}
+	}
+
+	.siguenos-logo img{
+		width:35px;
+		height:35px;
+	}
+	.burguer {
+		display: block;
+	    background-color: black;
+	    text-align: right;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    
+	}
+	.hamburguer-icon {
+		font-size: 20px;
+	    padding-right: 20px;
+
+	}
+	.mobile-nav {
+		border-top: 1px solid white;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+	.mobile-nav a{
+		display: block;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: left;
+		line-height: 2em;
+	}
+	.hamburguer-icon, .hamburguer-icon:active, .hamburguer-icon:visited, .hamburguer-icon:hover {
+		color:white;
+		text-decoration: none;
+	}
+	.mapa{
+		text-align: center;	
+		padding-left: 15px;
+		padding-bottom: 20px;
+	    border-bottom: 1px $division solid;
+	    margin-bottom: 10px;
+ 	}
+ 	.nosotros {
+		text-align:center;
+		padding-right: 15px;
+		padding-top: 20px;
+	    border-top: 1px $division solid;
+	    margin-top: 20px;
+	}
+	.logo {
+		width: $logo-mobile;
+		height: auto;
+
+	}
+	.background-heading {    
+	    text-align: center;
+    	display: block;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	/*living mobile*/
+	.section {
+		display: none;
+	}
+	/*comedor mobile*/
+	.text-size {
+		font-size: 89%;
+		font-weight: bold;
+	}
+	/*formulario mobile*/
+	.formulario{
+		margin-left: 13%;
+	}
+}

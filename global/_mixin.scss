@@ -1,0 +1,20 @@
+@import "variables";
+$radius: 10%;
+.grid {
+	width:$grid-size;
+	height:80%;
+	@if ($radius != 0) {
+		border-radius:10%;
+	} @else {
+		border-radius:$radius;
+	}
+}
+.gridcomedor {
+	width: $grid-size;
+	height: $grid-size;
+	@if ($radius < 0) {
+		border-radius:50%;
+	} @else {
+		border-radius: $radius;
+	}
+}

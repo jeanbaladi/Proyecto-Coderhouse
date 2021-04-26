@@ -1,0 +1,8 @@
+@import "../global/variables";
+.background-heading {
+	background: linear-gradient(to right, $gradient-left , $gradient-right); 
+}
+.logo {
+	width: $logo-size;
+	height: auto;
+}

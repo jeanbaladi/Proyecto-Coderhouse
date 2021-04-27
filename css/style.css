@@ -273,5 +273,9 @@ h2 {
 p {
   font-weight: bold; }
 
-.privated {
+.Privated {
   text-align: center; }
+
+.support {
+  text-align: center;
+  padding: 20px; }

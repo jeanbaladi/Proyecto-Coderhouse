@@ -6,6 +6,9 @@
 	.main-nav {
 		display:none;
 	}
+	.item-menu {
+		animation-name: none;
+	}
 	.siguenos {
 		font-size: 14px;
 		text-align:center; 
@@ -32,7 +35,6 @@
 	.hamburguer-icon {
 		font-size: 20px;
 	    padding-right: 20px;
-
 	}
 	.mobile-nav {
 		border-top: 1px solid white;

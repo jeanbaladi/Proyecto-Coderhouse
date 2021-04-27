@@ -19,11 +19,21 @@
 
 .item-menu {
   margin-left: 5%;
-  color: white; }
+  color: white;
+  animation-duration: 1s;
+  animation-name: opacity; }
 
 .item-menu:hover {
   text-decoration: none;
   color: yellow; }
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+    width: 300%; }
+  to {
+    opacity: 100%;
+    width: 100%; } }
 
 .carousel-control-prev {
   left: 0; }
@@ -191,6 +201,8 @@ input {
 @media only screen and (max-width: 768px) {
   .main-nav {
     display: none; }
+  .item-menu {
+    animation-name: none; }
   .siguenos {
     font-size: 14px;
     text-align: center; }

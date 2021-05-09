@@ -2,7 +2,7 @@
   background: linear-gradient(to right, #2BC0E4, #EAECC6); }
 
 .logo {
-  width: 55%;
+  width: 270px;
   height: auto; }
 
 .main-nav nav {
@@ -149,7 +149,7 @@ footer {
   align-items: center;
   white-space: pre;
   border: solid 10px #fcba03;
-  width: 250px;
+  width: 295px;
   display: flex;
   flex-direction: column;
   transition-duration: 500ms;
@@ -269,17 +269,11 @@ input {
 body {
   background-color: #ffeff9; }
 
-h1 {
-  margin-left: -8%;
-  font-weight: bold;
-  margin-top: 5%;
-  font-size: 368%; }
-
 .h5, h5 {
   font-size: 3.25rem;
   font-weight: 800; }
 
-h2 {
+h1, h2 {
   text-align: center; }
 
 p {

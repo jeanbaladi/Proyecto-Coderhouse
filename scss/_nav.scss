@@ -10,26 +10,30 @@
 	font-family: Impact, sans-serif;
 	flex-direction: column;
 }
-.item-menu {
-	margin-left: 5%;
+.navbar-brand {
+	font-size: 30px;
+	animation-name: opacity;
+	animation-duration: 3s;
+}
+.navbar-brand:hover {
+	color: #fcba03 !important;
+}
+.navbar-light .navbar-brand{
 	color: white;
-	animation-duration: 1s;
-    animation-name: opacity;
+	display: block;
 }
-
-.item-menu:hover {
-	text-decoration: none;
-	color: yellow;;
+.menu {
+	display: flex;
+    background-color: #924879;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
-
 @keyframes opacity {
   from {
    	opacity: 0;
-    width: 300%
   }
 
   to {
     opacity: 100%;
-    width: 100%;
   }
 }

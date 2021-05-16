@@ -2,12 +2,9 @@
 .burguer {
 	display:none;
 }
-@media only screen and (max-width: 768px) {
-	.main-nav {
+@media only screen and (max-width: 820px) {
+	.navbar-light .navbar-brand{
 		display:none;
-	}
-	.item-menu {
-		animation-name: none;
 	}
 	.siguenos {
 		font-size: 14px;
@@ -26,7 +23,7 @@
 	}
 	.burguer {
 		display: block;
-	    background-color: black;
+	    background-color: #924879;
 	    text-align: right;
 	    padding-top: 10px;
 	    padding-bottom: 10px;
@@ -40,8 +37,10 @@
 		border-top: 1px solid white;
 		margin-top: 10px;
 		padding-top: 10px;
+		background-color: #924879;
 	}
 	.mobile-nav a{
+		color: white;
 		display: block;
 		font-size: 18px;
 		text-transform: uppercase;
@@ -76,6 +75,10 @@
     	display: block;
 	    padding-top: 10px;
 	    padding-bottom: 10px;
+	}
+	/*homepage mobile*/
+	.texthome {
+		font-size: 300% !important;
 	}
 	/*living mobile*/
 	.section {

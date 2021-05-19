@@ -3,8 +3,8 @@
 	display:none;
 }
 @media only screen and (max-width: 820px) {
-	.navbar-light .navbar-brand{
-		display:none;
+	.sticky-top, .navbar-light {
+		display: none;
 	}
 	.siguenos {
 		font-size: 14px;
@@ -26,8 +26,7 @@
 	    background-color: #924879;
 	    text-align: right;
 	    padding-top: 10px;
-	    padding-bottom: 10px;
-	    
+	    padding-bottom: 10px;	    
 	}
 	.hamburguer-icon {
 		font-size: 20px;
@@ -38,6 +37,7 @@
 		margin-top: 10px;
 		padding-top: 10px;
 		background-color: #924879;
+		text-align: center;
 	}
 	.mobile-nav a{
 		color: white;
@@ -46,6 +46,7 @@
 		text-transform: uppercase;
 		text-align: left;
 		line-height: 2em;
+		padding-left: 20px;
 	}
 	.hamburguer-icon, .hamburguer-icon:active, .hamburguer-icon:visited, .hamburguer-icon:hover {
 		color:white;
